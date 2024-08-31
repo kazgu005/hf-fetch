@@ -8,7 +8,7 @@ concurrency:
 
 jobs:
   pypi-publish:
-    name: Upload release to PyPI
+    name: hf-fetch
     runs-on: ubuntu-latest
     environment:
       name: pypi
