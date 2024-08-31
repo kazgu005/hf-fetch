@@ -13,14 +13,14 @@ requirements = [
 
 
 setuptools.setup(
-    name="hf_fetch",
+    name="hf-fetch",
     version="0.1.0",
-    author="kazgu",
+    author="kazgu005",
     author_email="hasanjan@outlook.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/kazgu/hf_fetch",
+    url="https://github.com/kazgu005/hf-fetch",
     packages=setuptools.find_packages(),
     install_requires=requirements,
     package=['hf_fetch'],
@@ -29,7 +29,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    # scripts=['easyml/cortex/main.py'],
     entry_points={  # Optional
     'console_scripts': [
          'hf-fetch=hf_fetch.hf_fetch:main',
