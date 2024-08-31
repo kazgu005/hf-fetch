@@ -1,0 +1,10 @@
+README.md
+setup.py
+hf_fetch/__init__.py
+hf_fetch/hf_fetch.py
+hf_fetch.egg-info/PKG-INFO
+hf_fetch.egg-info/SOURCES.txt
+hf_fetch.egg-info/dependency_links.txt
+hf_fetch.egg-info/entry_points.txt
+hf_fetch.egg-info/requires.txt
+hf_fetch.egg-info/top_level.txt
